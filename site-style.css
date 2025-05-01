@@ -49,13 +49,20 @@ footer img {
     max-width: 90%;
 }
 
-.gpt-screenshot-1,.gpt-screenshot-2{
+.gpt-images-container a {
     width: 48%;
     max-width: 700px;
+    display: block; 
+}
+
+.gpt-screenshot-1, .gpt-screenshot-2 {
+    width: 100%; 
     height: auto;
     border-radius: 8px;
     border: 1px solid #694489;
+    display: block;
 }
+
 
 .Obscurity-slides {
     width: 80%;
