@@ -1,105 +1,92 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Michelle Omari</title>
 
-<html>
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 
-    <head>
 
-        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
-        
-        <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
+  <link rel="stylesheet" href="site-style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Michelle Omari</a>
+    <nav>
+      <ul>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Michelle_Omari_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p class="section">About me</p>
+    <section class="purple">
+      <p class="body">
+        Hello, and welcome to my website! My name is Michelle S. Omari. I'm a new grad from the
+        <a href="https://usv.edu" target="_blank" rel="noopener noreferrer">University of Silicon Valley</a> with a degree in computer science. I've
+        had an interest in computers and tech since I was about 11 years old and started studying it ever since.
+        Over the years, I’ve explored different areas in tech, including web development, software engineering,
+        game development, and others but I’ve found that my true interests lie in databases, cybersecurity, Linux, and
+        computer systems. However, I have a flexible mindset open to exploring other diverse roles in tech.
+      </p>
+      <p class="body">
+        This website used to be my author website many years ago, but I repurposed it to showcase my skills and
+        projects in tech. It is still a work in progress, and I'm continuing to refine its layout, accessibility, and will
+        continue to add more projects. Currently, for the best experience, please view this site on a desktop or laptop.
+      </p>
+    </section>
+
+    <p class="section">Skills</p>
     
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-            
-        <meta name="viewport"= content="width=device-width, initial-scale=1.0"> 
-            
-        <meta charset="UTF-8">     
-    
-        <title> Home | Michelle Omari </title
-        
-    </head>
-    
-    <body>
-        
-        <a href="index.html">
-            <h1 class="logo">Michelle Omari</h1>
-        </a>        
-
-        <img class="moon-logo" src="moon-logo.png">
-        
-     <label> 
-
-    <input type="checkbox">
-    
-    <span class="menu"> 
-        
-        <span class="hamburger"> </span> </span>
-        
-        <ul> 
-
-            <li> <a href="Projects.html"> Projects </a> </li>  
-
-            <li> <a href="index.html"> Home </a> </li>
-
-            <li> <a href="Michelle_Omari_Resume.pdf" target="_blank" rel="noopener noreferrer"> Resume </a> </li>
-            
-        </ul>
-                
-</label> 
-    
-    <p class="section"> About me </p>
-    
-        <p class="body"> Hello, and welcome to my website! My name is Michelle S. Omari. I'm a new grad from the 
-        <a href="https://usv.edu" target="_blank" rel="noopener noreferrer"> University of Silicon Valley </a> with a degree in computer science. I've had an interest 
-        in computers and tech since I was about 11 years old and started studying it ever since. Over the years, 
-        I’ve explored different areas in tech, including web development, software engineering, game development, and others
-        but I’ve found that my true interests lie in databases, cybersecurity, Linux, and scripting. However, I have a flexible mindset 
-        open to exploring other diverse roles in tech. </p>
-
-        <p class="body"> This website used to be my author website many years ago, but I repurposed it for my repurposed it to showcase 
-        showcase my skills and projects in tech. It is still a work in progress, and I'm continuing to refine its layout, accessibility, and will continue to 
-        add more projects. Currently, for the best experience, please view this site on a desktop or laptop. </p> 
-
-    
-    <p class="section"> Skills </p>
-
-    <div class="skills-grid">
-            
-        <p class="body"> C++ / C </p>
-        <p class="body"> Python </p>
-        <p class="body"> SQL </p>
-        <p class="body"> HTML / CSS </p>
-        <p class="body"> Javascript </p>
-        <p class="body"> Angular </p>
-        <p class="body"> Github/Git </p>
-        <p class="body"> Wordpress </p>
-        <p class="body"> Perforce </p>
-        <p class="body"> Unity </p>
-        <p class="body"> Unreal </p>
-        <p class="body"> Docker </p>
-        <p class="body"> Linux </p>
-        <p class="body"> Agile </p>
-        <p class="body"> Bash </p>
-        <p class="body"> Java </p>
-        <p class="body"> Currently learning: Assembly (x86)</p>
-        
+    <div class="skills-tags">
+      <span>C++ / C</span>
+      <span>Python</span>
+      <span>SQL</span>
+      <span>HTML / CSS</span>
+      <span>JavaScript</span>
+      <span>Angular</span>
+      <span>Git / GitHub</span>
+      <span>WordPress</span>
+      <span>Perforce</span>
+      <span>Unity</span>
+      <span>Unreal</span>
+      <span>Docker</span>
+      <span>Linux</span>
+      <span>Agile</span>
+      <span>Bash</span>
+      <span>Java</span>
+      <span>YAML</span>
+      <span>Currently learning: Assembly (x86)</span>
     </div>
-        
-        <br>
 
-        <footer>
+    <p class="section"> Contact Me </p>
+    <section class="contact-section">
+    <form action="https://formspree.io/f/mjkoybeo" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    </section>
 
-            <p> <p>© 2016 - 2025 Michelle Omari</p>
-        </p>
-        
-            <a class="a-img" href="https://www.linkedin.com/in/michelle-omari/" target="_blank" rel="noopener noreferrer"> <img src="linkedin.png"> </a>
+  </main>
 
-            <a class="a-img" href="https://github.com/bookishmichelle" target="_blank" rel="noopener noreferrer"> <img src="github.webp"> </a>
-                    
-                
-        </footer>
-           
-           <link rel="stylesheet" href="site-style.css">
-
-    </body>
-    
+  <footer>
+    <p>© 2016 - 2025 Michelle Omari</p>
+    <a href="https://www.linkedin.com/in/michelle-omari/" target="_blank" rel="noopener noreferrer">
+      <img src="linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/bookishmichelle" target="_blank" rel="noopener noreferrer">
+      <img src="github.webp" alt="GitHub" />
+    </a>
+  </footer>
+</body>
 </html>
